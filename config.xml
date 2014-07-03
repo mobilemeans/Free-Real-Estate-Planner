@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        xmlns:android   = "http://schemas.android.com/apk/res/android"
+        id          = "com.a4c.frep"
+        
+        versionCode = "1" version     = "0.0.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Free Real Estate Planner</name>
+    
+    <description>
+
+					Free Real Estate Planner provides you with the tools to help find and evaluate your next investment property.
+					
+    </description>
+    <icon src="icon.png" width="63" height="63"/>
+    <author href="http://www.apps4canadians.ca" email="apps4canadians@live.com">
+        Troy MacFarlane 
+    </author>
+    <gap:splash src="icon.png" />
+    
+    <preference name="permissions" value="none"/>
+    <preference name="android-minSdkVersion"      value="15" />
+    <preference name="phonegap-version" value="3.3.0" />
+<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
+<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    <param name="ios-package" value="CDVInAppBrowser" />
+</feature>
+<access origin="*" />  
+<gap:splash src="splash.png" />
+  
+    
+    
+</widget>
